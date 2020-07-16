@@ -36,6 +36,20 @@ Please follow along as the instructor uses Knex migrations and seeding to create
 ## Components
 
 - Entities (Resources) -> nouns (Ex: A client, a Virtual Assistant)
--
+- relationships -> foreign keys
+- Properties (fields, attributes) --> columns
 
 ## Workflow
+
+- one to one. Not common.
+- one to many. This is it!
+- many to many. this is a trick.
+
+## Mantras
+
+- every table MUST have a primary key
+- many to many -> third table.
+- do two or three entities at a time
+- one to many -> foreign key
+- foreign key where? -> many side.
+- The third table can have extra information
