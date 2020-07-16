@@ -15,3 +15,27 @@ Guided project for **Node DB 4** Module.
 - [ ] type `npm run server` to start the API.
 
 Please follow along as the instructor uses Knex migrations and seeding to create a multi-table database schema.
+
+## Virtual Assistant Example
+
+- List of virtual assistants
+- list of clients
+- multiple clients per VA
+- Keep track of engagement questions
+  - Did the client have a particular question asked
+
+## A good data model
+
+- Captures ALL the information the system needs
+- Captures ONLY the information the system needs.
+- Reflect reality.
+- Is flexible, can evolve with our knowledge of the system/domain
+- Guarantee data integrity, without sacrificing (too much) performance.
+- Is driven by the way we access the data, the data we need to see.
+
+## Components
+
+- Entities (Resources) -> nouns (Ex: A client, a Virtual Assistant)
+-
+
+## Workflow
